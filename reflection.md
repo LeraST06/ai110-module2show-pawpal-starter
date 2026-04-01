@@ -4,8 +4,22 @@
 
 **a. Initial design**
 
-- Briefly describe your initial UML design.
-- What classes did you include, and what responsibilities did you assign to each?
+Three things a user needs to be able to do:
+- Add their info and their pet (name, species, how much time they have per day)
+- Add care tasks (walk, meds, grooming, etc.) with a duration and priority
+- Generate a daily schedule that fits tasks into available time, highest priority first
+
+Four classes:
+
+**Owner** — name, available minutes per day; can add/get pets
+
+**Pet** — name, species, linked to an owner; holds a list of tasks
+
+**Task** — title, duration, priority (low/medium/high), optional preferred time, recurring flag; can return a numeric priority for sorting
+
+**Scheduler** — takes a pet and builds the day's plan; sorts by priority, skips tasks that don't fit, explains what was scheduled and what wasn't
+
+See [uml.md](uml.md) for the class diagram.
 
 **b. Design changes**
 
