@@ -5,13 +5,13 @@
 ## 📸 Demo
 
 **Owner & pet setup**
-<a href="/course_images/ai110/pawpal_screenshot1.png" target="_blank"><img src='/course_images/ai110/pawpal_screenshot1.png' title='PawPal App - Setup' width='' alt='PawPal App Setup' class='center-block' /></a>
+<a href="pawpal_screenshot1.png" target="_blank"><img src='pawpal_screenshot1.png' title='PawPal App - Setup' width='' alt='PawPal App Setup' class='center-block' /></a>
 
 **Task management**
-<a href="/course_images/ai110/pawpal_screenshot2.png" target="_blank"><img src='/course_images/ai110/pawpal_screenshot2.png' title='PawPal App - Tasks' width='' alt='PawPal App Tasks' class='center-block' /></a>
+<a href="pawpal_screenshot2.png" target="_blank"><img src='pawpal_screenshot2.png' title='PawPal App - Tasks' width='' alt='PawPal App Tasks' class='center-block' /></a>
 
 **Generated daily schedule with conflict warning**
-<a href="/course_images/ai110/pawpal_screenshot3.png" target="_blank"><img src='/course_images/ai110/pawpal_screenshot3.png' title='PawPal App - Schedule' width='' alt='PawPal App Schedule' class='center-block' /></a>
+<a href="pawpal_screenshot3.png" target="_blank"><img src='pawpal_screenshot3.png' title='PawPal App - Schedule' width='' alt='PawPal App Schedule' class='center-block' /></a>
 
 ## Features
 
