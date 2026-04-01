@@ -22,6 +22,16 @@ Your final app should:
 - Display the plan clearly (and ideally explain the reasoning)
 - Include tests for the most important scheduling behaviors
 
+## Smarter Scheduling
+
+The scheduler goes beyond a simple to-do list:
+
+- **Priority-first scheduling** — tasks are ranked high/medium/low and scheduled greedily within the owner's daily time budget. High-priority tasks that get skipped surface a warning.
+- **Time-aware sorting** — tasks with a `preferred_time` (HH:MM) are placed before unscheduled tasks and ordered chronologically.
+- **Filtering** — tasks can be filtered by pet name or completion status, so the UI and CLI can show exactly the slice of data needed.
+- **Recurring tasks** — tasks marked `daily` or `weekly` automatically queue their next occurrence (using `timedelta`) when completed.
+- **Conflict detection** — the scheduler scans the built schedule for tasks sharing the same `preferred_time` and returns warning messages instead of crashing.
+
 ## Getting started
 
 ### Setup
